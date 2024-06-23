@@ -1,7 +1,7 @@
-./Scripts
-./Lib
-./share/
-./spice_model
-./Include
-./audiotest
+Scripts/
+Lib/
+share/
+spice_model/
+Include/
+audiotest/
 pyvenv.cfg
