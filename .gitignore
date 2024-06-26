@@ -5,3 +5,7 @@ spice_model/
 Include/
 audiotest/
 pyvenv.cfg
+audiotest/
+csv/
+done/
+downloads/
