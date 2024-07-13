@@ -49,10 +49,8 @@ with open(csv_file, 'a', newline='') as file:
     # writer.writerow(['File Name', 'Average Pitch (Hz)', 'All Pitches (Hz)'])
 
     # Process each converted audio file in the folder
-    for filename in os.listdir(converted_folder):
-        if filename.startswith('converted_') and filename.endswith('.wav'):
-            file_path = os.path.join(converted_folder, filename)
-            
+    for filename in os.listdir(converted_folder):        
+            file_path = os.path.join(converted_folder, filename)            
             try:
                 pitch_values = process_audio_file(file_path)
                 if pitch_values:
