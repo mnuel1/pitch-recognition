@@ -8,8 +8,6 @@ import logging
 logger = logging.getLogger()
 logger.setLevel(logging.ERROR)
 
-print("tensorflow:", tf.__version__)
-
 # Load the SPICE model
 model = hub.load("https://tfhub.dev/google/spice/2")
 
